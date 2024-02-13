@@ -81,3 +81,13 @@ transform: translateY(-100%);
 border-top-right-radius: 5px;
 border-bottom-right-radius: 5px;
 }
+
+@media (min-width: 768px) {
+    .left-slide {
+        width: 35%;
+    }
+
+    .right-slide {
+        width: 65%;
+        left: 35%;
+    }
